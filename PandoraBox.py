@@ -63,7 +63,7 @@ def chooseTool():
  elif tool=='19':
      os.system('wget https://raw.github.com/derv82/wifite/master/wifite.py && chmod +x wifite.py ')    
  elif tool=='20':
-     os.system('apt update && apt upgrade && pkg install clang && apt install ruby vim git nodejs && apt install ruby-dev libxml2-dev libxslt-dev pkg-config make clang && gem install nokogiri -- --use-system-libraries && apt install libsqlite-dev && gem install sqlite3 && apt install libffi-dev && gem install rb-inotify && gem install ffi && apt install openssh && pkg install postgresql postgresql-contrib postgresql-dev && gem install pg && initdb -D ~/postgres/') 
+     os.system('apt update && apt upgrade && pkg install clang && apt install ruby vim git nodejs && apt install libxml2-dev libxslt pkg-config make clang && gem install nokogiri -- --use-system-libraries && apt install libsqlite-dev && gem install sqlite3 && apt install libffi-dev && gem install rb-inotify && gem install ffi && apt install openssh && pkg install postgresql postgresql-contrib postgresql-dev && gem install pg && initdb -D ~/postgres/') 
  elif tool=='21':
      os.system('pkg install php')
  elif tool=='22':
