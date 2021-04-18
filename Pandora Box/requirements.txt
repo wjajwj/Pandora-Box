@@ -1,1 +1,1 @@
-pip3 install art 
+pip install art 
