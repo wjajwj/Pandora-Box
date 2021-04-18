@@ -1,6 +1,6 @@
 # Pandora-Box
 Instalador de ferramentas para o Termux (Termux tools installer).
-Executing: python3 PandoraBox.py
+Executing: python PandoraBox.py
 [![Captura-de-tela-de-2021-04-17-21-14-25.png](https://i.postimg.cc/yxrJYdmr/Captura-de-tela-de-2021-04-17-21-14-25.png)](https://postimg.cc/tnWRB9mh)
 
 Inclui o metasploit, em uma versão testada. Qualquer dúvida, é só reportar.
