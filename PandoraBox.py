@@ -39,7 +39,7 @@ def chooseCategory():
      print('23: Wifite')  
  elif category=='9':
      print('Programming (Ruby/PHP/Perl)')
-     print('24: Ruby, 25: PHP, 26: Perl')  
+     print('21: Ruby, 22: PHP, 23: Perl')  
  elif category=='10':
      print('Web Server') 
      print('28: Apache')   
