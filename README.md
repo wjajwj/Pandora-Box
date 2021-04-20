@@ -1,7 +1,7 @@
 # Pandora-Box
 Update: Rapidscan, websploit e dirsearch adicionados/Rapidscan, websploit and dirsearch added <br>
 Obs.: Websploit added to category exploiting <br> 
-Algumas correções/some fixes
+--> Disponível/available THC Hydra and Apache for Termux (web server) <br>
 <br>
 Instalador de ferramentas de pentest/hacking para o Termux (Termux pentest/hacking tools installer). <br>
 Usage: First execute pip install -r requirements.txt (to install requirements) then execute: python PandoraBox.py<br>
