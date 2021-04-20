@@ -1,4 +1,5 @@
 # Pandora-Box
+// Tests being executed <br>
 Update: Rapidscan, websploit e dirsearch adicionados/Rapidscan, websploit and dirsearch added <br>
 Obs.: Websploit added to category exploiting <br> 
 --> Disponível/available Apache for Termux (web server) <br>
