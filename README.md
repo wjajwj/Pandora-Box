@@ -1,5 +1,6 @@
 # Pandora-Box
 Update: Rapidscan, websploit e dirsearch adicionados/Rapidscan, websploit and dirsearch added <br>
+Obs.: Websploit added to category exploiting <br> 
 Algumas correções/some fixes
 <br>
 Instalador de ferramentas de pentest/hacking para o Termux (Termux pentest/hacking tools installer).
