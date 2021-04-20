@@ -24,10 +24,12 @@ def chooseCategory():
  elif category=='5':
      print('Website scanner')
      print('16: admin-panel-finder') 
+     print('23: Rapidscan')
+     print('24: dirsearch')
  elif category=='6':
-     print('Website scanner')
+     print('Exploiting')
      print('17: Metasploit')     
-     
+     print('25: WebSploit')
  elif category=='7':
      print('DoS')
      print('18: Slowloris')   
@@ -39,8 +41,7 @@ def chooseCategory():
      print('20: Ruby, 21: PHP, 22: Perl')  
  elif category >= '10':
      print("Invalid! Please, choose a valid category :)")    
-     quit()     
-            
+     quit()        
 
 def chooseTool():
  tool = input('Choose the tool (input the number)\n')
@@ -70,8 +71,14 @@ def chooseTool():
  elif tool=='21':
      os.system('pkg install php')
  elif tool=='22':
-     os.system('pkg install perl')      
- elif tool >= '23':
+     os.system('pkg install perl')   
+ elif tool=='23':
+     os.system('wget -O rapidscan.py https://raw.githubusercontent.com/skavngr/rapidscan/master/rapidscan.py && chmod +x rapidscan.py')
+ elif tool=='24':
+     os.system('git clone https://github.com/maurosoria/dirsearch.git && cd dirsearch && pip install -r requirements.txt')       
+ elif tool=='25':
+     os.system('git clone https://github.com/websploit/websploit.git && cd websploit && python setup.py install')            
+ elif tool >= '26':
      print("Invalid! please, choose a valid value") 
      quit()   
    
@@ -81,7 +88,6 @@ chooseTool()
     
 
   
-
     
 
   
