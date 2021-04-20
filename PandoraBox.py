@@ -85,10 +85,7 @@ def chooseTool():
  elif tool=='27':
      os.system('pkg install git -y && cd ~/ && git clone https://github.com/viliyam2811/termux-apache2-server && cd ~/termux-apache2-server && bash setup && cd ~/ && rm -rf termux-apache2-server')      
  elif tool=='28':
-     os.system('pkg install clang && apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev \
-                 libgtk2.0-dev libmysqlclient-dev libpq-dev libsvn-dev \
-                 firebird-dev libmemcached-dev libgpg-error-dev \
-                 libgcrypt11-dev libgcrypt20-dev && git clone https://github.com/vanhauser-thc/thc-hydra && cd thc-hydra && ./configure && make && make install')                                              
+     os.system('pkg install clang && git clone https://github.com/vanhauser-thc/thc-hydra && cd thc-hydra && ./configure && make && make install')                                              
  elif tool >= '29':
      print("Invalid! please, choose a valid value") 
      quit()   
