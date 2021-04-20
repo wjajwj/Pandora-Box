@@ -28,7 +28,7 @@ def chooseCategory():
      print('25: dirsearch')
  elif category=='6':
      print('Exploiting/Bruteforcing')
-     print('20: Metasploit')     
+     print('18: Metasploit')     
      print('26: WebSploit')
 
  elif category=='7':
