@@ -1,5 +1,6 @@
 # Pandora-Box
-Update: Sofware tests/Testes de Software <br> Code improvements/Melhorias no código
+Update: Rapidscan, websploit e dirsearch adicionados/Rapidscan, websploit and dirsearch added 
+Algumas correções/some fixes
 <br>
 Instalador de ferramentas de pentest/hacking para o Termux (Termux pentest/hacking tools installer).
 Usage: First execute pip install -r requirements.txt (to install requirements) then execute: python PandoraBox.py<br>
