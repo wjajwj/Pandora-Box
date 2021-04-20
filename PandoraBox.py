@@ -85,7 +85,7 @@ def chooseTool():
  elif tool=='27':
      os.system('pkg install git -y && cd ~/ && git clone https://github.com/viliyam2811/termux-apache2-server && cd ~/termux-apache2-server && bash setup && cd ~/ && rm -rf termux-apache2-server')      
                                       
- elif tool >= '29':
+ elif tool >= '28':
      print("Invalid! please, choose a valid value") 
      quit()   
    
