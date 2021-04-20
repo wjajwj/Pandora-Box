@@ -24,12 +24,12 @@ def chooseCategory():
  elif category=='5':
      print('Website scanner')
      print('17: admin-panel-finder') 
-     print('18: Rapidscan')
-     print('19: dirsearch')
+     print('24: Rapidscan')
+     print('25: dirsearch')
  elif category=='6':
      print('Exploiting/Bruteforcing')
      print('20: Metasploit')     
-     print('21: WebSploit')
+     print('27: WebSploit')
 
  elif category=='7':
      print('DoS')
@@ -42,7 +42,7 @@ def chooseCategory():
      print('24: Ruby, 25: PHP, 26: Perl')  
  elif category=='10':
      print('Web Server') 
-     print('27: Apache')   
+     print('28: Apache')   
  elif category >= '11':
      print("Invalid! Please, choose a valid category :)")    
      quit()        
@@ -80,12 +80,12 @@ def chooseTool():
      os.system('wget -O rapidscan.py https://raw.githubusercontent.com/skavngr/rapidscan/master/rapidscan.py && chmod +x rapidscan.py')
  elif tool=='25':
      os.system('git clone https://github.com/maurosoria/dirsearch.git && cd dirsearch && pip install -r requirements.txt')       
- elif tool=='26':
-     os.system('git clone https://github.com/websploit/websploit.git && cd websploit && python setup.py install') 
  elif tool=='27':
+     os.system('git clone https://github.com/websploit/websploit.git && cd websploit && python setup.py install') 
+ elif tool=='28':
      os.system('pkg install git -y && cd ~/ && git clone https://github.com/viliyam2811/termux-apache2-server && cd ~/termux-apache2-server && bash setup && cd ~/ && rm -rf termux-apache2-server')      
                                       
- elif tool >= '28':
+ elif tool >= '29':
      print("Invalid! please, choose a valid value") 
      quit()   
    
