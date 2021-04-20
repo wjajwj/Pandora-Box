@@ -33,10 +33,10 @@ def chooseCategory():
 
  elif category=='7':
      print('DoS')
-     print('22: Slowloris')   
+     print('19: Slowloris')   
  elif category=='8':
      print('Wireless Attacks')
-     print('23: Wifite')  
+     print('20: Wifite')  
  elif category=='9':
      print('Programming (Ruby/PHP/Perl)')
      print('21: Ruby, 22: PHP, 23: Perl')  
