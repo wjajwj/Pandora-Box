@@ -24,28 +24,30 @@ def chooseCategory():
  elif category=='5':
      print('Website scanner')
      print('17: admin-panel-finder') 
-     print('24: Rapidscan')
-     print('25: dirsearch')
+     print('18: Rapidscan')
+     print('19: dirsearch')
  elif category=='6':
      print('Exploiting/Bruteforcing')
-     print('18: Metasploit')     
-     print('26: WebSploit')
-
+     print('20: Metasploit')     
+     print('21: WebSploit')
+     print('28: THC Hydra')
  elif category=='7':
      print('DoS')
-     print('19: Slowloris')   
+     print('22: Slowloris')   
  elif category=='8':
      print('Wireless Attacks')
-     print('20: Wifite')  
+     print('23: Wifite')  
  elif category=='9':
      print('Programming (Ruby/PHP/Perl)')
-     print('21: Ruby, 22: PHP, 23: Perl')  
+     print('24: Ruby, 25: PHP, 26: Perl')  
  elif category=='10':
      print('Web Server') 
      print('27: Apache')   
  elif category >= '11':
      print("Invalid! Please, choose a valid category :)")    
-     quit()        
+     quit()     
+ else:
+     quit()       
 
 def chooseTool():
  tool = input('Choose the tool (input the number)\n')
@@ -84,14 +86,16 @@ def chooseTool():
      os.system('git clone https://github.com/websploit/websploit.git && cd websploit && python setup.py install') 
  elif tool=='27':
      os.system('pkg install git -y && cd ~/ && git clone https://github.com/viliyam2811/termux-apache2-server && cd ~/termux-apache2-server && bash setup && cd ~/ && rm -rf termux-apache2-server')      
-                                      
- elif tool >= '28':
+ elif tool=='28':
+     os.system('apt update && apt install hydra ')                                              
+ elif tool >= '29':
      print("Invalid! please, choose a valid value") 
      quit()   
    
 chooseCategory()  
 chooseTool()
 
+    
 
   
 
