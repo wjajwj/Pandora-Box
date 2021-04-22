@@ -30,7 +30,7 @@ def chooseCategory():
      print('Exploiting/Bruteforcing')
      print('20: Metasploit')     
      print('21: WebSploit')
-     print('28: THC Hydra')
+
  elif category=='7':
      print('DoS')
      print('22: Slowloris')   
@@ -86,9 +86,8 @@ def chooseTool():
      os.system('git clone https://github.com/websploit/websploit.git && cd websploit && python setup.py install') 
  elif tool=='27':
      os.system('pkg install git -y && cd ~/ && git clone https://github.com/viliyam2811/termux-apache2-server && cd ~/termux-apache2-server && bash setup && cd ~/ && rm -rf termux-apache2-server')      
- elif tool=='28':
-     os.system('apt update && apt install hydra ')                                              
- elif tool >= '29':
+                                      
+ elif tool >= '28':
      print("Invalid! please, choose a valid value") 
      quit()   
    
