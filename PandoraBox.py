@@ -42,7 +42,7 @@ def chooseCategory():
      print('21: Ruby, 22: PHP, 23: Perl')  
  elif category=='10':
      print('Web Server') 
-     print('27: Apache')   
+     print('27: WebServer')   
  elif category >= '11':
      print("Invalid! Please, choose a valid category :)")    
      quit()     
@@ -85,7 +85,7 @@ def chooseTool():
  elif tool=='26':
      os.system('git clone https://github.com/websploit/websploit.git && cd websploit && python setup.py install') 
  elif tool=='27':
-     os.system('pkg install git -y && cd ~/ && git clone https://github.com/viliyam2811/termux-apache2-server && cd ~/termux-apache2-server && bash setup && cd ~/ && rm -rf termux-apache2-server')      
+     os.system('apt update && git clone https://github.com/rajkumardusad/MyServer.git && cd MyServer && chmod +x install && ./install && myserver start')      
                                              
  elif tool >= '28':
      print("Invalid! please, choose a valid value") 
